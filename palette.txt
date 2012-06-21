@@ -1,0 +1,22 @@
+Pictaculous
+white:	#FFFFFF
+light green (logo):	#80C11B
+blue green:	#62B789
+dark green (logo):	#008E36
+black:	#000000
+
+http://www.colourlovers.com/palette/1038727/Strolling-InTheWoods
+camo green:	#888811
+yellow:		#DDDD00
+chocolate:	#442200
+dark green:	#008833
+blue green:	#66FFAA
+
+http://kuler.adobe.com/index.cfm#themeID/1609564
+red:	#cc0000
+yellow:	#ffcc00
+light green:	#33cc33
+green:	#008833
+dark green:	#005522
+
+
