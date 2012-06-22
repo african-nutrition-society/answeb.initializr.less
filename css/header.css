@@ -1,0 +1,40 @@
+
+#header-logo-div {
+    float:left;
+    margin:0px 0px;
+}
+
+#header-logo-img {
+    float:right;
+    margin:10px 0px;
+}
+
+#header-title-div {
+    float:right;
+}
+
+#header-title-h2 {
+    margin:20px 0px;
+    color:rgb(0,142,54);
+    text-shadow: 0px 1px 1px rgba(0,0,0,.5);
+}
+
+#header-title.ul {
+
+}
+
+#header-logo-div {
+    /* hide this div by default, only show on tablet or larger screen */
+}
+
+#header-logo-img {
+    /* hide this div by default, only show on tablet or larger screen */    
+}
+
+footer {
+    text-align:center;
+}
+
+.BigLetter {
+    color:rgb(128,193,27);
+}
