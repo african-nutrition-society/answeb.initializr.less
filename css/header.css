@@ -38,3 +38,19 @@ footer {
 .BigLetter {
     color:rgb(128,193,27);
 }
+
+.shadowedbox {
+    -moz-box-shadow: 3px 3px 3px #888;
+    -webkit-box-shadow: 3px 3px 3px #888;
+    box-shadow: 3px 3px 3px #888;
+    /*border: thin solid #EEE;*/
+    /*background-color:#62B789;*/
+    background-color:#FFF;
+    margin-top:20px;
+    /*padding:10px;*/
+}
+
+body {
+    /*background-color:#62B789;*/
+    background-image:url("../img/bg/subtle/snow.png");
+}
