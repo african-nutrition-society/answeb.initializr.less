@@ -1,3 +1,5 @@
+Twitter Yellow:  #fff04d
+
 Pictaculous
 white:	#FFFFFF
 light green (logo):	#80C11B
