@@ -12,7 +12,70 @@ body {
    Author:
    ========================================================================== */
 
+/* ----- Variable Overrides ----- */
+@twitterYellow:     #fff04d;
+@mysteryBgColor:    #62B789;
 
+
+@bodyBackground:    @twitterYellow;
+/* --- End Variable Overrides --- */
+
+
+#header-logo-div {
+    float:left;
+    margin:0px 0px;
+}
+
+#header-logo-img {
+    float:right;
+    margin:10px 0px;
+}
+
+#header-title-div {
+    float:right;
+}
+
+#header-title-h2 {
+    margin:20px 0px;
+    color:rgb(0,142,54);
+    text-shadow: 0px 1px 1px rgba(0,0,0,.5);
+}
+
+#header-title.ul {
+
+}
+
+#header-logo-div {
+    /* hide this div by default, only show on tablet or larger screen */
+}
+
+#header-logo-img {
+    /* hide this div by default, only show on tablet or larger screen */    
+}
+
+footer {
+    text-align:center;
+}
+
+.BigLetter {
+    color:rgb(128,193,27);
+}
+
+.shadowedbox {
+    -moz-box-shadow: 3px 3px 3px #888;
+    -webkit-box-shadow: 3px 3px 3px #888;
+    box-shadow: 3px 3px 3px #888;
+    /*border: thin solid #EEE;*/
+    /*background-color:#62B789;*/
+    background-color:#FFF;
+    margin-top:20px;
+    /*padding:10px;*/
+}
+
+body {
+    background-color:@bodyBackground;
+    /*background-image:url("../img/bg/subtle/snow.png");*/
+}
 
 
 
