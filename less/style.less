@@ -12,6 +12,17 @@ body {
    Author:
    ========================================================================== */
 
+/*  apply a natural box layout model to all elements
+    http://paulirish.com/2012/box-sizing-border-box-ftw
+    http://html5please.com/#box-sizing
+    https://github.com/Schepp/box-sizing-polyfill */
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    *behavior: url(/scripts/boxsizing.htc);
+}
+
 /* ----- Variable Overrides ----- */
 @twitterYellow:     #fff04d;
 @mysteryBgColor:    #62B789;
@@ -70,23 +81,34 @@ footer {
     -moz-box-shadow: 3px 3px 3px #888;
     -webkit-box-shadow: 3px 3px 3px #888;
     box-shadow: 3px 3px 3px #888;
-    /*border: thin solid #EEE;*/
+    border: thin solid #CCC;
     /*background-color:#62B789;*/
-    background-color:#FFF;
     margin-top:20px;
     /*padding:10px;*/
 }
 
 .contenttile {
    padding: 0px 5px 0px 5px; 
+   background-color:#FFF;
 }
 
 .picturetile {
-    
+   padding: 0px 5px 0px 5px; 
+   background-color:#FFF;
 }
 
+// hide stuff on small screens
+@media (max-width: 979px) {
 
+    .picturetile {
+        display:none;
+    }
 
+    .mobilehidden {
+        display:none;
+    }
+
+}
 
 
 
